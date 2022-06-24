@@ -39,7 +39,7 @@
             </Label>
 
             <!-- Date -->
-            <Label Content="Mont. der 24.06.2022" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="290" Canvas.Top="192" Width="290" HorizontalContentAlignment="Center">
+            <Label x:Name="dateText" Content="Mont. der 24.06.2022" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="290" Canvas.Top="162" Width="290" HorizontalContentAlignment="Right">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
@@ -75,17 +75,17 @@
             </ScrollViewer>
 
             <StackPanel Width="120">
-                <Label Content="Mon" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Label x:Name="forecast1" Content="Mon" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
                 <Image Source="ico/sun.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="32,0,31,0"/>
                 <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
             <StackPanel Width="120">
-                <Label Content="Di" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Label  x:Name="forecast2" Content="Di" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
                 <Image Source="ico/droprain.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
             <StackPanel Width="120">
-                <Label Content="Mit" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Label x:Name="forecast3" Content="Mit" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
                 <Image Source="ico/sun.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
