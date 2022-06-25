@@ -13,3 +13,6 @@ C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\The
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\TheWeatherApp.csproj.CoreCompileInputs.cache
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\TheWeatherApp.exe
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\TheWeatherApp.pdb
+C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\TheWeatherApp.csproj.CopyComplete

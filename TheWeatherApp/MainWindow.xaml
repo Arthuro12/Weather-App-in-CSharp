@@ -25,7 +25,7 @@
             <Image Name="headerImage" Height="250" Width="615" VerticalAlignment="Top" Source="sunset.jpg" Stretch="UniformToFill" />
 
             <!-- Name of the city -->
-            <Label Content="Nicht definiert" Foreground="White"  FontSize="60" FontWeight="Bold" HorizontalContentAlignment="Right" Canvas.Left="157" Canvas.Top="17" Width="423">
+            <Label x:Name="cityTitle" Content="Nicht definiert" Foreground="White"  FontSize="60" FontWeight="Bold" HorizontalContentAlignment="Right" Canvas.Left="157" Canvas.Top="17" Width="423">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
