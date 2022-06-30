@@ -16,3 +16,4 @@ C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\The
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\obj\Debug\TheWeatherApp.csproj.CopyComplete
+C:\Users\ThinkPad\source\repos\Weather-App-in-CSharp\TheWeatherApp\bin\Debug\NewsAPI.dll

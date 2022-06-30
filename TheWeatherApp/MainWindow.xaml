@@ -22,38 +22,38 @@
         </StackPanel>
 
         <Canvas>
-            <Image Name="headerImage" Height="250" Width="615" VerticalAlignment="Top" Source="sunset.jpg" Stretch="UniformToFill" />
+            <Image Name="headerImage" Height="250" Width="615" VerticalAlignment="Top" Source="rain.jpg" Stretch="UniformToFill" />
 
             <!-- Name of the city -->
-            <Label x:Name="cityTitle" Content="Nicht definiert" Foreground="White"  FontSize="60" FontWeight="Bold" HorizontalContentAlignment="Right" Canvas.Left="157" Canvas.Top="17" Width="423">
+            <Label x:Name="cityTitle" Content="Berlin" Foreground="White"  FontSize="60" FontWeight="Bold" HorizontalContentAlignment="Right" Canvas.Left="157" Canvas.Top="17" Width="423">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
             </Label>
 
             <!-- Temperature -->
-            <Label Content="+°15C" Foreground="White"  FontSize="50" FontWeight="Bold" Canvas.Left="17" Canvas.Top="107" Width="208" HorizontalContentAlignment="Center">
+            <Label x:Name="temperaturLabel1"  Content="+°15C" Foreground="White"  FontSize="50" FontWeight="Bold" Canvas.Left="17" Canvas.Top="107" Width="208" HorizontalContentAlignment="Center">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
             </Label>
 
             <!-- Date -->
-            <Label x:Name="dateText" Content="Mont. der 24.06.2022" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="290" Canvas.Top="162" Width="290" HorizontalContentAlignment="Right">
+            <Label x:Name="dateText" Content="06.27.2022" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="290" Canvas.Top="162" Width="290" HorizontalContentAlignment="Right">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
             </Label>
 
             <!-- Daescription -->
-            <Label Content="Bewölkt" Foreground="White"  FontSize="15" FontWeight="Bold" Canvas.Left="290" Canvas.Top="107" Width="290" HorizontalContentAlignment="Right">
+            <Label Name="weatherDescription" Content="Bewölkt" Foreground="White"  FontSize="15" FontWeight="Bold" Canvas.Left="255" Canvas.Top="107" Width="325" HorizontalContentAlignment="Right">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
             </Label>
 
             <!-- Wind -->
-            <Label Content="25 Km/h" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="17" Canvas.Top="183" Width="208" HorizontalContentAlignment="Center">
+            <Label x:Name="windContent" Content="25 Km/h" Foreground="White"  FontSize="25" FontWeight="Bold" Canvas.Left="17" Canvas.Top="183" Width="208" HorizontalContentAlignment="Center">
                 <Label.Effect>
                     <DropShadowEffect BlurRadius="10"/>
                 </Label.Effect>
@@ -63,31 +63,25 @@
         <DockPanel DockPanel.Dock="Bottom" Height="160">
             <ScrollViewer>
                 <StackPanel Width="215"  Margin="0, 5, 0, 0">
-                    <Label Content="NEW" HorizontalAlignment="Center" FontWeight="Bold"/>
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
-                    <Label Content="Beispiel von Aktualitäten" />
+                    <Label Content="NEWS" HorizontalAlignment="Center" FontWeight="Bold"/>
+                    <ListView Name="articlesList"/>
                 </StackPanel>
             </ScrollViewer>
 
             <StackPanel Width="120">
                 <Label x:Name="forecast1" Content="Mon" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
-                <Image Source="ico/sun.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="32,0,31,0"/>
-                <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Image x:Name="iconDayOne" Source="Icons/snow.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label x:Name="temperaturLabel2" Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
             <StackPanel Width="120">
                 <Label  x:Name="forecast2" Content="Di" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
-                <Image Source="ico/droprain.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Image x:Name="iconDayTwo" Source="Icons/snow.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label x:Name="temperaturLabel3" Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
             <StackPanel Width="120">
                 <Label x:Name="forecast3" Content="Mit" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
-                <Image Source="ico/sun.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
+                <Image x:Name="iconDayThree" Source="Icons/snow.png" Height="70" Width="70" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label x:Name="temperaturLabel4" Content="+12°C" HorizontalContentAlignment="Center" FontSize="25" FontWeight="Bold"/>
             </StackPanel>
         </DockPanel>
     </DockPanel>
