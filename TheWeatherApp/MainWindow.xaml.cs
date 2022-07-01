@@ -250,6 +250,7 @@ namespace TheWeatherApp
                     break;
                 case "rain":
                     bi3.BeginInit();
+
                     bi3.UriSource = new Uri(@"Icons/rain.png", UriKind.Relative);
                     bi3.EndInit();
                     iconDayTwo.Source = bi3;
