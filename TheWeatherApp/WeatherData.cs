@@ -14,16 +14,17 @@ namespace TheWeatherApp
 
         public string Forecast { get; set; }
 
-        public string Description { set; get; }
+        public string Description { get; set; }
 
-        public string Temperatur { set; get; }
+        public string Temperatur { get; set; }
 
-        public string TemperaturDayOne { set; get; }
+        public string TemperaturDayOne { get; set; }
 
-        public string TemperaturDayTwo { set; get; }
+        public string TemperaturDayTwo { get; set; }
 
-        public string TemperaturDayThree { set; get; }
+        public string TemperaturDayThree { get; set; }
 
-        public string Wind { set; get; }
+        public string Wind { get; set; }
+
     }
 }

@@ -8,7 +8,7 @@ namespace TheWeatherApp
 {
     class Article
     {
-        public string Title { set; get; }
+        public string Title { get; set; }
 
         public override string ToString()
         {
